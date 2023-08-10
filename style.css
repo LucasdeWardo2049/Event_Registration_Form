@@ -9,7 +9,7 @@ body, input, select, textarea {
 }
 
 body {
-    background: #888888;
+    background: #E5E5E5;
 }
 body::before{
     content: '';
@@ -76,4 +76,33 @@ fieldset legend {
 .input-wrapper {
     display: flex;
     flex-direction: column;
+}
+
+.input-wrapper label, 
+.checkbox-wrapper label {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    color: #6c6a71;
+}
+
+.input-wrapper span {
+    margin-left:12px;
+    font-size: 12px;
+    line-height: 20px;
+
+    color: #6c6a71;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+    background: #fafafc;
+    border: 1px solid #e6e6f0;
+    border-radius: 8px;
+    height: 56px;
+    padding: 0 24px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6c6a71;
 }
